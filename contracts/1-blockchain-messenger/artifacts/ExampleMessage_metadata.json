@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getSender",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "someAdd",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/1-blockchain-messenger/5-msg_sender.sol": "ExampleMessage"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/1-blockchain-messenger/5-msg_sender.sol": {
+			"keccak256": "0x75dfb129d651e490e4fa4b6a3535e907731dbb840ba969be4da275afcfe925f6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3fbf1acb0a24208abf98941ce982608a1fe1bd2b01c1229aabddb46ffd2c7620",
+				"dweb:/ipfs/QmUZGe8iNigXGas37XogsUJ1UTYq6BoPhsUytKpkqM1jjF"
+			]
+		}
+	},
+	"version": 1
+}

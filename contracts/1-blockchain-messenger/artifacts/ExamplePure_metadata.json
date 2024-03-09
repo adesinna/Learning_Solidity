@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myStorageVar",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/1-blockchain-messenger/functions.sol": "ExamplePure"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/1-blockchain-messenger/functions.sol": {
+			"keccak256": "0xcd0c0ac5d04f91c429b3b347e0230d65c2a35a9bf2dcbb5c0f01f4685572c76f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://97819965148242a0b297fe750ccc62258178e5b6b92eb409db14fa4eeeb83af9",
+				"dweb:/ipfs/QmWqiUHgVZH15mpnhbK8wK8eQGAZ4pKaEEz3b4b159WjzW"
+			]
+		}
+	},
+	"version": 1
+}

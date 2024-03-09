@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/1-blockchain-messenger/4-address.sol": "Name"
+			"contracts/1-blockchain-messenger/4-address.sol": "AddressEx"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/1-blockchain-messenger/4-address.sol": {
-			"keccak256": "0xe027810b2de5e9dca2b006ecb3d04f8f6ad50902dc6f1d5c77191752eaf037b1",
+			"keccak256": "0xbb6378d900c68b637e96ca650ec84e4a651e9a8ffd1024c039b5c3a380d8e800",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://cc2350adbb65ffdd51f81757611e4711894c0022496a5bed84f5b8a6ce72333f",
-				"dweb:/ipfs/QmPUCZ9RpH5xJJmYfmcgr35Uan45YcwrVgRcgCB4ezDUvF"
+				"bzz-raw://323c70bbce7deb7e234adfddf33eed37511411416837def5ca3fdc5dc55c82e1",
+				"dweb:/ipfs/QmVcaK8GRr94i8d7UNCf6mM8UCgp5r1hRDynoqsV3dkWeS"
 			]
 		}
 	},

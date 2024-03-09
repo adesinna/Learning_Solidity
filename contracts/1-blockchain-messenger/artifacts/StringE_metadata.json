@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/1-blockchain-messenger/4-address.sol": "Name"
+			"contracts/1-blockchain-messenger/3-strings.sol": "StringE"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/1-blockchain-messenger/4-address.sol": {
-			"keccak256": "0xe027810b2de5e9dca2b006ecb3d04f8f6ad50902dc6f1d5c77191752eaf037b1",
+		"contracts/1-blockchain-messenger/3-strings.sol": {
+			"keccak256": "0xaa3ad87affc9476b889f21556b4dd959a06cf33ce64011fc4eaf52bc2d8d65e7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://cc2350adbb65ffdd51f81757611e4711894c0022496a5bed84f5b8a6ce72333f",
-				"dweb:/ipfs/QmPUCZ9RpH5xJJmYfmcgr35Uan45YcwrVgRcgCB4ezDUvF"
+				"bzz-raw://b1b806d9103114ec9bbc40691428603fe7d790e2298ce9f93bb0132ed149dadf",
+				"dweb:/ipfs/QmR7uXFy7Y92hAwAJkZAgAL5w2DW4jx9VfvXrzZJBnpHPd"
 			]
 		}
 	},

@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/1-blockchain-messenger/4-address.sol": "Name"
+			"contracts/1-blockchain-messenger/4-address.sol": "Addr"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/1-blockchain-messenger/4-address.sol": {
-			"keccak256": "0xe027810b2de5e9dca2b006ecb3d04f8f6ad50902dc6f1d5c77191752eaf037b1",
+			"keccak256": "0xc0c3a44b00f8b085dc3e972dcba3d40481683d854db0786a80d5196c77513317",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://cc2350adbb65ffdd51f81757611e4711894c0022496a5bed84f5b8a6ce72333f",
-				"dweb:/ipfs/QmPUCZ9RpH5xJJmYfmcgr35Uan45YcwrVgRcgCB4ezDUvF"
+				"bzz-raw://6cb7c483705d08e869d8ffdf156922001f2365d11ddca9685fc048f95eb958c9",
+				"dweb:/ipfs/QmSzhiwikRomZZ24DZqmCy6bFd4RcvyTR4fK3j7DVLDTd7"
 			]
 		}
 	},
