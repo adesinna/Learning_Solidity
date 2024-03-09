@@ -4,21 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [],
-				"name": "ourstring",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -32,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/00-blockchain.sol": "MyContract"
+			"contracts/00-blockchain.sol": "my"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -47,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/00-blockchain.sol": {
-			"keccak256": "0xe01aad5c652baacc69e3c7506ead9ac92e37df8756e1ec0cede1bf201d4e0f75",
+			"keccak256": "0xa881e61f9c673e82c1591b118e128c00eaba38302e14a4045f236c75ca1a7f0e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://76ccdecc25c78c6850f9d7735599f556bc902300e101069393c36ad6f9362c8e",
-				"dweb:/ipfs/QmW5TSXK2WENASPxzX81KavvZ4m4tR2tmp8tVgtdD9DAPv"
+				"bzz-raw://72cc1910aaa4d71cb4f7b752487a27606325914ec98f1d8b35160f84408efba7",
+				"dweb:/ipfs/QmfFZmynDi34HPATUyHTRUSGAjMkBniZdh6MoX8xMwpaoJ"
 			]
 		}
 	},

@@ -1,0 +1,104 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "increaseInt",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "minusFunc",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myInt",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_myUnit",
+						"type": "uint256"
+					},
+					{
+						"internalType": "int256",
+						"name": "_myInt",
+						"type": "int256"
+					}
+				],
+				"name": "myInteger",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myUint",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/1-blockchain-messenger/2-integers.sol": "Integer"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/1-blockchain-messenger/2-integers.sol": {
+			"keccak256": "0x557a86bb9c2c9e65e71aaba4cb14b2a9047d9de0da57db0d3c62b817b83f29db",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8bfdc6ee68fe5a946f1484042da511f2b96e713faf8f304f67cc9c6a90fdaa64",
+				"dweb:/ipfs/QmQk5EyoQ6ZZmNn7wQxStQyEb3z7R2kCocwyUPFzcMgttk"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,116 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_myBool",
+						"type": "bool"
+					}
+				],
+				"name": "changeBool",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myBool",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "newBool",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "newBool2",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "result1",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "result2",
+						"type": "bool"
+					}
+				],
+				"name": "operateBool",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/1-blockchain-messenger/1-boolean.sol": "ExampleBoolean"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/1-blockchain-messenger/1-boolean.sol": {
+			"keccak256": "0x4551ca2f9a7c12af7219d74e450a4f66b4da230063c1359c3bd48ab7aa330641",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://18e50a2ee5a399bb83e084f8a78875ead751bb6d3af075b68133ff7635682bf8",
+				"dweb:/ipfs/QmTHLrJgsg2Bg2QXWYh4sX39Zk89mSmbcvCZBnx3LVyt2Y"
+			]
+		}
+	},
+	"version": 1
+}

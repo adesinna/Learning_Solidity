@@ -16,3 +16,12 @@ Solidity have familiar concepts to python
 Deployment of a smart contract is done with a transaction
 
 */
+
+contract ShinaContract {
+    string public ourString = "Adesina";
+
+    function updateString(string memory _updateString) public {
+        ourString = _updateString;
+    }
+    
+}
