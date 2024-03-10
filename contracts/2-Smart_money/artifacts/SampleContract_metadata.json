@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newString",
+						"type": "string"
+					}
+				],
+				"name": "updateString",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/2-Smart_money/2-send_and_receive.sol": "SampleContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/2-Smart_money/2-send_and_receive.sol": {
+			"keccak256": "0x48e66b3cab230a1c3a209c044d17b72d3acfb13b0b6a4752ec59ac3e17b9479a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6a57b39ca96e2874e5442c4d02d21a8c3a63177e2c008a8c3dde9ab5afe039df",
+				"dweb:/ipfs/QmZ1F64G6zLz1haxGh5U4gVMAjMK8wUXWHQ1GNmMfDNqS8"
+			]
+		}
+	},
+	"version": 1
+}
