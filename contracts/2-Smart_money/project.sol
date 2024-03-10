@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.24;
 
-
 contract SendWithdrawMoney {
 
     uint public balanceReceived;
-    
+    uint public lastDepositAmount;
 
-    // this is a deposit
+    // This is a deposit
     function deposit() public payable {
         balanceReceived += msg.value;
+        lastDepositAmount = msg.value;
     }
 
     function getContractBalance() public view returns(uint) {
@@ -23,5 +23,9 @@ contract SendWithdrawMoney {
 
     function withdrawToAddress(address payable to) public {
         to.transfer(getContractBalance());
+    }
+
+    function getLastDepositInfo() public view returns (uint) {
+        return lastDepositAmount;
     }
 }

@@ -40,6 +40,32 @@
 			},
 			{
 				"inputs": [],
+				"name": "getLastDepositInfo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "lastDepositAmount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "withdrawAll",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -87,11 +113,11 @@
 	},
 	"sources": {
 		"contracts/2-Smart_money/project.sol": {
-			"keccak256": "0x7868e2e67cae9e7955ddbce06c3822916a1435c0b928242479ca2718494b0180",
+			"keccak256": "0x11eb170fb664ddaaf6a4fd82d8615e3e2d2666c156a61e75a27e4e1234236d68",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://682fc520b2375e5f229da4c8e33b23de3b8e0e395f4131704038bfacc2bf705f",
-				"dweb:/ipfs/QmdBFpGFyDgHXEo4i1bpRtNsfdsM1F2Bg9S4RA215tu9F4"
+				"bzz-raw://83e0c590790f4f2ceb54b745a39dd77af42bdb876666e203b117754be336b82b",
+				"dweb:/ipfs/QmXujrTM8q5SrWttBMPBe9Z6XugSXY68nvc8HibiQLj79w"
 			]
 		}
 	},
