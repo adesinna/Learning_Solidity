@@ -98,7 +98,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/2-Smart_money/project.sol": "SendWithdrawMoney"
+			"contracts/2-smart_money/project.sol": "SendWithdrawMoney"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -112,7 +112,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/2-Smart_money/project.sol": {
+		"contracts/2-smart_money/project.sol": {
 			"keccak256": "0xc08d8bc967f7225732048a95734136b96fb01e108624b0ded321abb79dc44a19",
 			"license": "MIT",
 			"urls": [

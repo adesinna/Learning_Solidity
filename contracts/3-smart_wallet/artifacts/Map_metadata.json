@@ -4,21 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [],
-				"name": "firststring",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -32,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/1-test.sol": "MyContract"
+			"contracts/3-smart_wallet/2-wallet_mapping.sol": "Map"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -46,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/1-test.sol": {
-			"keccak256": "0x1130e377100ed37814b99a29930b9fc0343369a073f984bb0e0069fab9e4db75",
+		"contracts/3-smart_wallet/2-wallet_mapping.sol": {
+			"keccak256": "0x2d8f62f307be6a59c859c11eed1dbb951b12887ad353f5d2f14b98a185f1ab52",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://40b2b7c2d345495da5c2bfd1cb26ed705aa34fe9de12ba8fab360d686a24bc2d",
-				"dweb:/ipfs/QmTrYG6txWYWFdsCdmsztmfGv1AsKVvQB3GFeHiUiCFoGm"
+				"bzz-raw://4dc6a8edf3b50f21d15b6bd52c7bdd79a253a0f12bc487a3d18c06caf3adfb23",
+				"dweb:/ipfs/QmSDXeoHA5YowF2ZW3nBkK5Z9GzeMCYbLwXEwYwEkjQqac"
 			]
 		}
 	},

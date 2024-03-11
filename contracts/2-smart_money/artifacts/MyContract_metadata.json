@@ -41,7 +41,7 @@
 				],
 				"name": "updateString",
 				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -58,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/2-Smart_money/2-send_and_receive.sol": "MyContract"
+			"contracts/2-smart_money/1-inject_web3.sol": "MyContract"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -72,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/2-Smart_money/2-send_and_receive.sol": {
-			"keccak256": "0x560f0a3c3fee6daee4bd505646baca1ee24b1f04674bb9149b01608656ac2170",
+		"contracts/2-smart_money/1-inject_web3.sol": {
+			"keccak256": "0x636ca29161a31789c4f9a8bb91d7ca8d9942c8b0ab7912721d045d64bc2b9029",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bf620bed211489e540d8b92cc8109f116043c5f4cdc83287b45ff1253808f647",
-				"dweb:/ipfs/QmSMJzrsMFYyn4R9TYV5JbNfcoBJVt4FYQqWdyo3k2ocm7"
+				"bzz-raw://7ad897ee43d79471dcaa94f8b85804e18a0e6f8467a067829ea7bec1f5cf0b88",
+				"dweb:/ipfs/QmavbtjZzWc2KiDdoFkDwfGDgpM8JgpwZspFJQV4gr6sEY"
 			]
 		}
 	},

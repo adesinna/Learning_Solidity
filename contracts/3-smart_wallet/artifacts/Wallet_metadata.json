@@ -7,12 +7,24 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "firststring",
+				"name": "payContract",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "payment",
 				"outputs": [
 					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -32,7 +44,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/1-test.sol": "MyContract"
+			"contracts/3-smart_wallet/4-struct.sol": "Wallet"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -46,12 +58,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/1-test.sol": {
-			"keccak256": "0x1130e377100ed37814b99a29930b9fc0343369a073f984bb0e0069fab9e4db75",
+		"contracts/3-smart_wallet/4-struct.sol": {
+			"keccak256": "0x1e1760ae6da38eccdacdd6805c75bccbd68162df7b35537c1a239f3a8e348547",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://40b2b7c2d345495da5c2bfd1cb26ed705aa34fe9de12ba8fab360d686a24bc2d",
-				"dweb:/ipfs/QmTrYG6txWYWFdsCdmsztmfGv1AsKVvQB3GFeHiUiCFoGm"
+				"bzz-raw://edbbf5504833bc716e166d7c9a6f10424a5d779f359adc304a538390902a28b9",
+				"dweb:/ipfs/QmSF8vQgRHZyS9iGPRF5MvPGcZ8tActHZi6zgLmXhBBtEu"
 			]
 		}
 	},
