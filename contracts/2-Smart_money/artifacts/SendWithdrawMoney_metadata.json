@@ -7,19 +7,6 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "balanceReceived",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "deposit",
 				"outputs": [],
 				"stateMutability": "payable",
@@ -54,6 +41,19 @@
 			{
 				"inputs": [],
 				"name": "lastDepositAmount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalReceived",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -113,11 +113,11 @@
 	},
 	"sources": {
 		"contracts/2-Smart_money/project.sol": {
-			"keccak256": "0x11eb170fb664ddaaf6a4fd82d8615e3e2d2666c156a61e75a27e4e1234236d68",
+			"keccak256": "0xc08d8bc967f7225732048a95734136b96fb01e108624b0ded321abb79dc44a19",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://83e0c590790f4f2ceb54b745a39dd77af42bdb876666e203b117754be336b82b",
-				"dweb:/ipfs/QmXujrTM8q5SrWttBMPBe9Z6XugSXY68nvc8HibiQLj79w"
+				"bzz-raw://25cf35f96b4c2d47ac0beb374a7140ac22720041e1bef7408157cf951f4e9258",
+				"dweb:/ipfs/QmcXnjpBtEawst2TQ8pD9VnTGTfBBpx1aDQAunH5nMS3m9"
 			]
 		}
 	},

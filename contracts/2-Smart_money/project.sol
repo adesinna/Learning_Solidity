@@ -3,12 +3,12 @@ pragma solidity 0.8.24;
 
 contract SendWithdrawMoney {
 
-    uint public balanceReceived;
+    uint public totalReceived;
     uint public lastDepositAmount;
 
     // This is a deposit
     function deposit() public payable {
-        balanceReceived += msg.value;
+        totalReceived += msg.value;
         lastDepositAmount = msg.value;
     }
 
